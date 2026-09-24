@@ -6,5 +6,5 @@ export default function PostsLayout({ children }: { children: React.ReactNode })
       </header>
       {children}
     </div>
-  );
+  )
 }

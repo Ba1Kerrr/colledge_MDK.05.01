@@ -4,5 +4,5 @@ export default function AboutPage() {
       <h1>Обо мне</h1>
       <p>Я изучаю Next.js на МДК.05.01</p>
     </div>
-  );
+  )
 }
