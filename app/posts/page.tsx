@@ -8,9 +8,11 @@ const posts = [
 
 export default function PostsPage() {
   return (
-    <ul>
+    <ul className="divide-y divide-gray-200">
       {posts.map((post) => (
-        <li key={post.id}><Link href={`/posts/${post.id}`}>{post.title}</Link></li>
+        <li key={post.id}>
+          <Link href={`/posts/${post.id}`} className="hover:text-blue-600 hover:underline py-2">{post.title}</Link>
+        </li>
       ))}
     </ul>
   )
